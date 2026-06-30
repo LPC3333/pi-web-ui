@@ -1,0 +1,31 @@
+{
+  "name": "pi-web-ui",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "concurrently \"npm run dev:server\" \"npm run dev:client\"",
+    "dev:server": "cd server && npx tsx watch index.ts",
+    "dev:client": "cd client && npm run dev",
+    "install:all": "npm install && cd client && npm install"
+  },
+  "dependencies": {
+    "@earendil-works/pi-ai": "^0.79.1",
+    "@earendil-works/pi-coding-agent": "^0.79.1",
+    "cors": "^2.8.5",
+    "express": "^4.21.0",
+    "multer": "^2.1.1",
+    "socket.io": "^4.7.5",
+    "uuid": "^9.0.1"
+  },
+  "devDependencies": {
+    "@types/cors": "^2.8.17",
+    "@types/express": "^4.17.21",
+    "@types/multer": "^2.1.0",
+    "@types/node": "^20.14.0",
+    "@types/uuid": "^9.0.8",
+    "concurrently": "^8.2.2",
+    "tsx": "^4.19.0",
+    "typescript": "^5.5.0"
+  }
+}

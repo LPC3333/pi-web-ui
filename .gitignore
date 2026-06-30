@@ -1,0 +1,9 @@
+node_modules/
+.git/
+*.png
+_bak*/
+*.bak*
+.pi-web/auth.json
+server/.pi-web/auth.json
+_debug_session.json
+*webbridge-req*.json

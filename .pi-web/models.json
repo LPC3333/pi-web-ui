@@ -1,0 +1,14 @@
+{
+  "providers": {
+    "opencode": {
+      "baseUrl": "https://opencode.ai/zen/go/v1",
+      "api": "openai-completions",
+      "apiKey": "sk-8EZpWX41hWoXdpT2CRHlOa5PihLyRiCWxhAkYWAAx8xflCSKqA8StvzjSjQjOzQk",
+      "models": [
+        {
+          "id": "DeepSeek V4 Pro"
+        }
+      ]
+    }
+  }
+}
